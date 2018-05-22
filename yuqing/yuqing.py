@@ -9,6 +9,8 @@ import DB
 
 
 from tornado.options import define, options
+
+print('11111111111111111111')
 define("port", default=8000, help="run on the given port", type=int)
 
 class LoginHandler(tornado.web.RequestHandler):
