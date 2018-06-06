@@ -26,8 +26,6 @@ def test():
     # session = r.json()["token_type"]+" "+r.json()["access_token"]
     # print(r.status_code,r.text)
 
-    
-
     # #登录
     # payload = {"grant_type":'code', "username": 'HHX017865',"password":"123456"}
     # r = requests.post(url='http://api.hhx.qianjifang.com.cn/api/Token', data = payload)
